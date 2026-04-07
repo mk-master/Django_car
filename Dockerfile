@@ -11,4 +11,6 @@ RUN poetry install
 
 COPY . .
 
-# CMD ["python", "manage.py", "runserver"]
+RUN chmod +x ./prestart.sh
+
+ENTRYPOINT ["./prestart.sh"]

@@ -9,6 +9,7 @@ package-mode = false
 python = ">=3.12,<3.13"
 psycopg2-binary = "2.9.9"
 Django = "6.0.3"
+python-dotenv = "1.2.2"
 
 
 [build-system]
